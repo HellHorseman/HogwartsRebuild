@@ -20,7 +20,6 @@ public class StudentController {
     }
 
 
-
     @PostMapping
     public Student addStudent(@RequestBody Student student) {
         return studentService.createStudent(student);
@@ -51,7 +50,7 @@ public class StudentController {
     }
 
     @GetMapping(params = {"age"})
-    public Collection<Student> getAllFilteredByAge(@RequestParam (name = "age", required = false) int age) {
+    public Collection<Student> getAllFilteredByAge(@RequestParam(name = "age", required = false) int age) {
         return studentService.getAllFilteredByAge(age);
     }
 
