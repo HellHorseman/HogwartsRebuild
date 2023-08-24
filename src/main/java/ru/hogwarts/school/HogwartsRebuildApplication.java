@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @OpenAPIDefinition
 public class HogwartsRebuildApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HogwartsRebuildApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(HogwartsRebuildApplication.class, args);
+    }
 
 }
